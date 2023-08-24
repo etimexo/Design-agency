@@ -4,6 +4,9 @@
     box-sizing: border-box;
     /* border: 1px solid red; */
 }
+html {
+    scroll-behavior: smooth;
+}
 header {
     height: 100vh;
     /* background-image: url('../homebg.png');
@@ -39,14 +42,8 @@ a {
 }
 .sec1 h1 {
     width: 100%;
-    font-size: 2.5rem;
-    color: rgb(49, 49, 134);
-    /* padding: 10px; */
+
 }
 .sec1 p {
     font-size: 1.4rem;
-}
-.sec2 div {
-    /* width: 50%; */
-    
 }
