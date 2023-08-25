@@ -2,25 +2,30 @@ import React from "react";
 import "./Header.css";
 import Image from "next/image";
 import Logo from "../logo.png";
-import Team from "../team.jpg"
+import Team from "../team.jpg";
+import Bgmobile from "../bghomemobile.png";
+import Toggleimg from "../toggleimg.png";
+import Arrow from "../arrowdown.png";
 
 export default function Header() {
   return (
     <header id="#header" className="p-5">
-      <nav className="navbar flex items-center shadow px-5">
+      <nav className="navbar shadow">
         <div className="logo rounded">
           <a href="#" className="border-none">
             <Image src={Logo} alt="logo" className=" w-[70px]" />
           </a>
         </div>
-        <div className="ml-auto">
-          <ul className="flex">
+        <div className=" toggler">
+          <Image className="toggleimg" src={Toggleimg} alt="Toggler icon" />
+        </div>
+          <ul className="navmenu md:flex">
             <li className="text-black pr-10 font-bold">
               <a className="text-center border-none" href="#">
                 About
               </a>
             </li>
-            <li className="text-black pr-10 font-bold">
+            <li className="text-black md:pr-10 font-bold">
               <a className="text-center border-none" href="#services">
                 Services
               </a>
@@ -31,10 +36,14 @@ export default function Header() {
               </a>
             </li>
           </ul>
-        </div>
       </nav>
-      <section className="sec1 text-left font-size mt-[8vh] pr-5 ">
-        <h1 className="text-5xl mt-5 pt-5 pb-4 text-blue-700">
+      <div className="arrowdown">
+        <Image className="arrowd arra" src={Arrow} alt="arrow-down icon" />
+      </div>
+      {/* <Image src={Bgmobile} alt="Background image for mobile screen" /> */}
+      
+      <section className="sec1 text-left font-size mt-[8vh] ">
+        <h1 className=" mt-5 py-5 text-blue-700">
           Enhance a healthier you: Overcome your fears with our support!
         </h1>
         <p className="text-slate-800">

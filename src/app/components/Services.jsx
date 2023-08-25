@@ -6,10 +6,17 @@ import Team from "../team.jpg";
 export default function Services() {
   return (
     <section id="services" className="sec3 px-5">
-      <div className="mt-0 h-[80vh] flex items-center sec2 px-5">
-        <div className="text-xl w-[45%]">
-          <h1 className="text-blue-600 text-6xl">Let us help you!</h1> <br />
+      <div className="mt-0 h-[80vh] sec2 px-5">
+        <div className="text-xl">
+          <h1 className="text-blue-600 text-6xl">
+            Let us help you!
+          </h1> <br />
           <p className="text-slate-800">
+          <Image
+          className="m rounded-2xl border-4 border-blue-600 team-img"
+          src={Team}
+          alt="set of instructors"
+        />
             Our dedicated team of experienced trainers is here to guide you
             every step of the way. Whether you&apos;re nervous about stepping
             into the gym for the first time, trying a new workout routine, or
@@ -20,12 +27,13 @@ export default function Services() {
           </p>
         </div>
         <Image
-          className="w-[50%] ml-auto h-[85%] rounded-2xl border-4 border-blue-600 team-img"
+          className="d rounded-2xl border-4 border-blue-600 team-img"
           src={Team}
           alt="set of instructors"
         />
+        
       </div>
-      ei eho0iw hi
+      
     </section>
   );
 }

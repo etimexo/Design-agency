@@ -1,25 +1,28 @@
+@keyframes arrowd {
+    from {
+        transform: translateX('-50px');
+    }
+    to {
+        transform: translateX('0');
+    }
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 html {
     scroll-behavior: smooth;
+    /* background-color: rgb(232, 238, 232); */
+    
 }
 header {
+    background-image: url('../bghomem.png');
     height: 100vh;
-    /* background-image: url('../homebg.png');
-    background-size: cover;
-    background-repeat: no-repeat; */
-    /* background-position: right; */
-    /* background-attachment: fixed; */
-    /* background-position: right; */
-    /* background-color: rgb(176, 176, 196); */
-    background-image: url('../bghome.jpg');
-    background-size: cover;
-    background-position: -10%;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 43%;
 }
 a {
     text-decoration: none;
@@ -28,22 +31,84 @@ a {
     border-radius: 20px;
 }
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo {
     position: sticky;
     top: 0;
+    background-color: yellow;
+    margin-right: 10vw;
+}
+.navmenu {
+    position: fixed;
+    right: -1000px;
+}
+.navmenu.active {
+    right: 0;
+}
+.toggler {
+    /* margin-left:  20vw; */
+}
+.toggleimg {
+    width: 50px;
+    height: 50px;
 }
 .sec1 {
-    height: 80vh;
-    width: 50%;
-    /* position: relative;
-    /* right: 0px; */
-    /* left: 20vw;
-    top: 20px;  */
-    margin-left: auto;
+    width: inherit;
+    margin-top: 83vh;
+    /* background-color: rgb(232, 238, 232); */
+    padding: 0 10px;
 }
 .sec1 h1 {
     width: 100%;
-
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-.sec1 p {
-    font-size: 1.4rem;
+.arrowdown {
+    border: 1px solid red;
+    position: absolute;
+    bottom: 13vh;
+    right: 5vh;
+}
+.arrowd {
+    width: 100px;
+    height: 100px;
+    animation: arrowd 40s ease-in;
+}
+
+@media only screen and (min-width: 700px) {
+    header {
+        height: 100vh;
+        background-image: url('../bghome.jpg');
+        background-size: cover;
+        background-position: -10%;
+        background-attachment: fixed;
+    }
+    .toggler {
+        display: none;
+    }
+    .navmenu {
+        right: 0;
+    }
+    .sec1 {
+        height: 80vh;
+        width: 50%;
+        margin-left: auto;
+        margin-top: 10vh;
+    }
+    .sec1 h1 {
+        width: 100%;
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    .sec1 p {
+        font-size: 1.4rem;
+    }
+    .arrowd {
+        display: none;
+    }
 }
