@@ -13,7 +13,7 @@ export default function Header() {
       <nav className="navbar shadow">
         <div className="logo rounded">
           <a href="#" className="border-none">
-            <Image src={Logo} alt="logo" className=" w-[70px]" />
+            <div className="logo">Gyme</div>
           </a>
         </div>
         <div className=" toggler">
@@ -40,17 +40,16 @@ export default function Header() {
       <div className="arrowdown">
         <Image className="arrowd arra" src={Arrow} alt="arrow-down icon" />
       </div>
-      {/* <Image src={Bgmobile} alt="Background image for mobile screen" /> */}
-
       <section className="sec1 text-left font-size mt-[8vh] ">
-        <h1 className=" py-5 text-white">
-          Unlock Your Potential, Elevate Your Fitness!
+        <h1 className="mt-[10vh] py-5 text-white">
+          With us, you will:
         </h1>
         <p className="text-white">
-          Elevate your fitness and unveil a new you! Join us in embracing a
-          transformative journey that ignites potential and surpasses limits.
-          Let&apos;s sculpt a stronger, healthier version of yourself together.
-          Explore more to start your transformation
+          Unleash your potential <br />
+          Elevate your fitness <br />
+          Overcome your insecurities <br />
+          And many more...
+
         </p>
         <a href="#services">
           {" "}

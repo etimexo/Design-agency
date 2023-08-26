@@ -28,9 +28,6 @@ a {
     text-decoration: none;
     color: white;
 }
-.logo {
-    border-radius: 20px;
-}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -39,7 +36,6 @@ a {
 .logo {
     position: sticky;
     top: 0;
-    background-color: rgba(255, 255, 255, .9);
     margin-right: 10vw;
 }
 .navmenu {
@@ -88,13 +84,16 @@ a {
         /* background-position: -10%; */
         background-attachment: fixed;
         color: white;
+        padding-top: 5vh;
         /* animation: change 10s infinte ease-in; */
     }
     .change {
         animation: change 5s infinite ease-in;
         /* animation: change 10s 1 5s iteration-count direction ease-in; */
     }
-
+    .logo {
+        color: white;
+    }
     .toggler {
         display: none;
     }
@@ -105,7 +104,7 @@ a {
         height: 80vh;
         width: 50%;
         margin-left: auto;
-        margin-top: 4vh;
+        margin-top: 15vh;
     }
     .sec1 h1 {
         width: 100%;
