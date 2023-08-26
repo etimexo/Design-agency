@@ -13,9 +13,7 @@
 
 }
 html {
-    scroll-behavior: smooth;
-    /* background-color: rgb(232, 238, 232); */
-    
+    scroll-behavior: smooth;   
 }
 header {
     background-image: url('../bghomem.png');
@@ -34,11 +32,9 @@ a {
     border-radius: 20px;
 }
 .navbar {
-    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
 }
 .logo {
     position: sticky;
