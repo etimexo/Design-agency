@@ -10,6 +10,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 html {
     scroll-behavior: smooth;
@@ -23,23 +24,26 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 43%;
+    color: white;
 }
 a {
     text-decoration: none;
+    color: white;
 }
 .logo {
     border-radius: 20px;
 }
 .navbar {
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
 }
 .logo {
     position: sticky;
     top: 0;
-    background-color: yellow;
+    background-color: rgba(255, 255, 255, .9);
     margin-right: 10vw;
 }
 .navmenu {
@@ -79,14 +83,22 @@ a {
     animation: arrowd 40s ease-in;
 }
 
+
 @media only screen and (min-width: 700px) {
     header {
         height: 100vh;
         background-image: url('../bghome.jpg');
         background-size: cover;
-        background-position: -10%;
+        /* background-position: -10%; */
         background-attachment: fixed;
+        color: white;
+        /* animation: change 10s infinte ease-in; */
     }
+    .change {
+        animation: change 5s infinite ease-in;
+        /* animation: change 10s 1 5s iteration-count direction ease-in; */
+    }
+
     .toggler {
         display: none;
     }
@@ -97,7 +109,7 @@ a {
         height: 80vh;
         width: 50%;
         margin-left: auto;
-        margin-top: 10vh;
+        margin-top: 4vh;
     }
     .sec1 h1 {
         width: 100%;
@@ -111,4 +123,57 @@ a {
     .arrowd {
         display: none;
     }
+    .btn {
+        width: 18vw;
+        height: 12vh;
+        font-size: 1.7rem;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 70px;
+    }
+    .btn:hover, .btn:focus {
+        cursor: pointer;
+    }
+    .btn1 {
+        background-color: black;
+        color: white;
+        margin-right: 2vw;
+        border: 1px solid white;
+    }
+    .btn2 {
+        background-color: white;
+        color: black;
+    }
+    .btn1:hover, .btn1:focus {
+        background-color: white;
+        color: black;
+        border: 1px solid blue;
+    }
+    .btn2:hover, .btn2:focus {
+        background-color: black;
+        color: white;
+        border: 1px solid blue;
+
+    }
+    
+}
+@keyframes change {
+    /* from {
+        background-image: url("../bghome.jpg");
+    }
+    to {
+        background-image: url("../bghomed.jpg");
+    }
+    0% {
+        background-image: url("../bghome.jpg");
+    } */
+    /* 0% {
+        background-image: url("../bghome.jpg");
+    }
+    50% {
+        background-image: url("../bghomed.jpg");
+    }
+    100% {
+        background-image: url("../bghome.jpg")
+    } */
 }
