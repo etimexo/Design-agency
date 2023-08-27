@@ -21,6 +21,21 @@ export default function Header() {
         </div>
         <ul className="navmenu md:flex">
           <li className="text-black pr-10 font-bold">
+            <a id="#header" className="text-center border-none" href="#">
+              Home
+            </a>
+          </li>
+          <li className="text-black pr-10 font-bold">
+            <a className="text-center border-none" href="#">
+              Program
+            </a>
+          </li>
+          <li className="text-black pr-10 font-bold">
+            <a className="text-center border-none" href="#">
+              Cooaches
+            </a>
+          </li>
+          <li className="text-black pr-10 font-bold">
             <a className="text-center border-none" href="#">
               About
             </a>

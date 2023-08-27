@@ -91,6 +91,10 @@ a {
         animation: change 5s infinite ease-in;
         /* animation: change 10s 1 5s iteration-count direction ease-in; */
     }
+    .navbar {
+        padding: 2% 5%;
+    }
+
     .logo {
         color: white;
     }
@@ -99,6 +103,7 @@ a {
     }
     .navmenu {
         right: 0;
+        padding-right: 5%;
     }
     .sec1 {
         height: 80vh;
@@ -119,8 +124,8 @@ a {
         display: none;
     }
     .btn {
-        width: 18vw;
-        height: 12vh;
+        width: 15vw;
+        height: 10vh;
         font-size: 1.7rem;
         font-weight: bold;
         padding: 10px 20px;

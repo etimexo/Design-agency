@@ -7,7 +7,9 @@ import Team from "../team.jpg";
 export default function Services() {
   return (
     <section id="services" className="sec2 px-5">
-oeoeo
+      
     </section>
   );
 }
+
+
