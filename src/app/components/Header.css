@@ -78,7 +78,7 @@ a {
 
 @media only screen and (min-width: 700px) {
     header {
-        height: 100vh;
+        min-height: 100vh;
         background-image: url('../bghome.jpg');
         background-size: cover;
         /* background-position: -10%; */
@@ -154,6 +154,13 @@ a {
         color: white;
         border: 1px solid blue;
 
+    }
+    .minic {
+        background-color: red;
+        position: relative;
+        width: 60%;
+        height: 15vh;
+        right: -39vw;
     }
     
 }

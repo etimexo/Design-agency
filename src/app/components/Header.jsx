@@ -75,6 +75,10 @@ export default function Header() {
           <button className="btn btn2">Get started</button>
         </a>
       </section>
+      
+      <div className="minic">
+
+      </div>
     </header>
   );
 }
