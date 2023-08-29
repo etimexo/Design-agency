@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "../components/Welcome.css";
+import MainImg from "../main.jpg";
 
 export default function Welcome() {
   return (
@@ -33,13 +34,12 @@ export default function Welcome() {
             <button className="sign-btn">SIGN UP</button>
           </a>
         </ul>
-
-        
       </nav>
       <section className="sec1">
-      <h1>
-        Personal Trainer + Nutritionist with over 15 years of experience.
-      </h1>
+        <h1>
+          Personal Trainer + Nutritionist with over 15 years of experience.
+        </h1>
+        <Image className="main-img" src={MainImg} alt="an instructor" />
       </section>
     </div>
   );

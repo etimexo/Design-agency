@@ -51,4 +51,10 @@ nav {
         font-weight: bold;
         padding: 0 15vw;
     }
+    .sec1 .main-img {
+        text-align: center;
+        width: 90%;
+        height: 100%;
+        margin: 4vh auto;
+    }
 }
