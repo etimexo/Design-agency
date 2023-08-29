@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.7% 4%;
+}
+.nav-link {
+    color: var(--link-color);
+}
+.logo {
+    font-size: var(--h-size);
+}
+@media only screen and (min-width: 700px) {
+    .nav-link {
+        font-size: var(--link-size);
+    }
+    .blog-link {
+        padding-right: 1.4rem;
+    }
+    .sign-btn {
+        padding: 20px 30px;
+        background-color: var(--btn-color);
+        border: none;
+        color: var(--t-color);
+        font-weight: bold;
+    }
+    .sign-btn:hover, .sign-btn:focus {
+        background-color: #3b5c53;
+    }
+    .logo {
+        font-size: 2rem;
+        color: var(--h-color);
+        font-weight: 600;
+    }
+}
