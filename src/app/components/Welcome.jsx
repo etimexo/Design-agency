@@ -24,18 +24,23 @@ export default function Welcome() {
           <div className="line"></div>
         </div>
 
-        {/* <a className="desktop" href="#">
+        <a className="desktop" href="#">
           <button className="sign-btn">SIGN UP</button>
-        </a> */}
+        </a>
 
-        {/* <ul className="navmenu">
+        <ul className="navmenu">
           <a href="#">
             <button className="sign-btn">SIGN UP</button>
           </a>
-        </ul> */}
+        </ul>
 
         
       </nav>
+      <section className="sec1">
+      <h1>
+        Personal Trainer + Nutritionist with over 15 years of experience.
+      </h1>
+      </section>
     </div>
   );
 }

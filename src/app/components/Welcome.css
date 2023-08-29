@@ -10,6 +10,13 @@ nav {
 .logo {
     font-size: var(--h-size);
 }
+.navmenu {
+    display: none;
+}
+.sec1 h1 {
+    font-size: 3rem;
+    color: var(--h-color);
+}
 @media only screen and (min-width: 700px) {
     .nav-link {
         font-size: var(--link-size);
@@ -31,5 +38,17 @@ nav {
         font-size: 2rem;
         color: var(--h-color);
         font-weight: 600;
+    }
+    .sec1 {
+        width: 80%;
+        border: 1px solid red;
+        min-height: 60vh;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sec1 h1 {
+        font-size: 3.7rem;
+        font-weight: bold;
+        padding: 0 15vw;
     }
 }
