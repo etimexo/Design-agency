@@ -1,13 +1,13 @@
 import React from "react";
-import Header from './components/Header';
+import Welcome from "./components/Welcome";
 import Services from "./components/Services";
+import './components/Welcome.css';
 
 export default function page() {
   return (
-    <>
-      <Header />
+    <body>
+      <Welcome />
       <Services />
-
-    </>
+    </body>
   )
 }
