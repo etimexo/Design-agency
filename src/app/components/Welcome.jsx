@@ -40,6 +40,10 @@ export default function Welcome() {
           Personal Trainer + Nutritionist with over 15 years of experience.
         </h1>
         <Image className="main-img" src={MainImg} alt="an instructor" />
+        <h3>
+          Strenth training, boxing, yoga, spin, cross country running and more.
+          I&apos;m not picky as long as it gets you moving and sweating.
+        </h3>
       </section>
     </div>
   );
