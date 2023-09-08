@@ -9,13 +9,32 @@ nav {
 }
 .logo {
     font-size: var(--h-size);
+    color: var(--h-color);
 }
 .navmenu {
     display: none;
 }
+.sec1, .sec2 {
+    padding: 0 5%;
+}
 .sec1 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--h-color);
+    /* text-align: center; */
+    margin: 14vh auto;
+    font-weight: bold;
+}
+.sec1 .main-img {
+    width: 72vw;
+    height: 45vh;
+    margin: auto;
+    /* text-align: center; */
+}
+.sec1 h3 {
+    font-size: 1.5rem;
+    color: var(--h-color);
+    margin: 10vh auto;
+    font-weight: bold;
 }
 @media only screen and (min-width: 700px) {
     .nav-link {
@@ -25,7 +44,7 @@ nav {
         padding-right: 1.4rem;
     }
     .sign-btn {
-        padding: 20px 30px;
+        padding: 12px 30px;
         background-color: var(--btn-color);
         border: none;
         color: var(--t-color);
@@ -41,7 +60,6 @@ nav {
     }
     .sec1 {
         width: 80%;
-        border: 1px solid red;
         min-height: 60vh;
         margin: 0 auto;
         text-align: center;
@@ -58,10 +76,12 @@ nav {
         margin: 4vh auto;
     }
     .sec1 h3 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         color: var(--h-color);
-        /* font-weight: bold; */
-        margin-top: 5vh;
+        font-weight: bold;
+        /* margin-top: 10vh; */
+        margin: 20vh auto;
         padding: 0 6%;
     }
+
 }

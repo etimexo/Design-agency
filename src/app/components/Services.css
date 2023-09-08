@@ -1,6 +1,57 @@
-#services {
-    min-height: 100vh;
-    background-color: black;
-    /* background-position: -20vw; */
+.sec2 {
+  background-image: url("../track.jpg");
+  background-size: 95% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  height: fit-content;
+  padding: 6vh 0;
+  margin-bottom: 4vh;
+}
+.sec2 .grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+.sec2 .head {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.grid-item {
+  padding: 3vh 5vw;
+  font-size: 1.3rem;
+}
+.grid-item .body {
+  font-weight: lighter;
+}
+.sign-btn2 {
+  padding: 12px 30px;
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: bold;
+  margin-top: 6vh;
+}
 
+@media only screen and (min-width: 700px) {
+  .sec2 .grid {
+    grid-template-columns: auto auto;
+  }
+  .grid {
+    padding: 0 10vw;
+  }
+  .sec2 h4 {
+    font-weight: bold;
+  }
+  .grid-item .head {
+    font-size: 2.3rem;
+    margin-bottom: 2vh;
+  }
+  .grid-item .body {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .sign-btn2 {
+    width: 15vw;
+    height: 10vh;
+  }
 }
