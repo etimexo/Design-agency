@@ -19,23 +19,24 @@
 .vary {
     display: flex;
     border: 1px solid red;
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: auto;
     align-items: center;
 }
 .stretch {
-    /* width: 50vw;
-    height: 90vh; */
+    /* width: 45vw; */
+    /* height: 90vh; */
 }
 .vary2 {
     /* position: absolute;
     top: 50%; */
-    min-height: 50vh;
-    /* width: 150%; */
+    /* min-height: 50vh; */
+    width: 110%;
     padding: 3%;
     position: relative;
     left: -10vw;
     background-color: #fff;
+    display: inline-block;
     
 }
