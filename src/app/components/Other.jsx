@@ -18,8 +18,8 @@ export default function Other() {
         <Image src={Stretch} className="stretch" alt="woman stretching" />
         <div className="vary2">
             <p className="h">Warm Up</p>
-            Work Out
-            Cool Down
+            <p className="h">Work Out</p>
+            <p className="h">Cool Down</p>
 
             <p>
               Proper stretching and cool down routines will
@@ -27,7 +27,9 @@ export default function Other() {
               noticeable results fast.
             </p>
         </div>
+        
       </div>
+      
     </section>
   );
 }
