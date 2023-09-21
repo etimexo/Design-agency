@@ -21,7 +21,7 @@ export default function Other() {
           <p className="h">Warm Up</p>
           <p className="h">Work Out</p>
           <p className="h">Cool Down</p>
-          <p>
+          <p className="para">
             Proper stretching and cool down routines will help you maximize your
             workouts ang get noticeable results fast.
           </p>
@@ -30,12 +30,11 @@ export default function Other() {
       <div className="vary vary3">
         <Image src={Sun} className="stretch" alt="woman stretching" />
         <div className="vary2">
-          <p className="h">Warm Up</p>
-          <p className="h">Work Out</p>
-          <p className="h">Cool Down</p>
-          <p>
-            Proper stretching and cool down routines will help you maximize your
-            workouts ang get noticeable results fast.
+          <p className="h">A Constant Source of Motivation</p>
+          <p className="para">
+            Think of me as your personal cheering section, helping you find the
+            strength you didn&apos;t know you had. I&apos;m all about positive
+            reinforcement.
           </p>
         </div>
       </div>

@@ -1,0 +1,10 @@
+.back-bg {
+    min-height: 80vh;
+    width: 95%;
+    margin: 10vh auto 0;
+    background-image: url("../backward.jpg");
+    background-size: cover;
+    margin-bottom: 10vh;
+    color: #fff;
+    font-weight: bold;
+}
