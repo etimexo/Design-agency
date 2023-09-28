@@ -3,7 +3,7 @@
 }
 .sec3 {
     border: 1px solid red;
-    height: 250vh;
+    height: 270vh;
 }
 .other {
     background-color: var(--btn-color);
@@ -50,7 +50,7 @@
 .vary3 > .vary2 {
     position: relative;
     left: 20vw;
-    top: 20vh;
+    top: 38vh;
 }
 @media only screen and (min-width: 700px) {
     .other-p {
