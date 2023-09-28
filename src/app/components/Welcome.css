@@ -21,7 +21,7 @@ nav {
     font-size: 2rem;
     color: var(--h-color);
     /* text-align: center; */
-    margin: 14vh auto;
+    margin: 5vh auto;
     font-weight: bold;
 }
 .sec1 .main-img {
@@ -67,7 +67,7 @@ nav {
     .sec1 h1 {
         font-size: 3.7rem;
         font-weight: bold;
-        padding: 0 15vw;
+        padding: 0 5vw;
     }
     .sec1 .main-img {
         text-align: center;
