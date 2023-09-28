@@ -1,13 +1,19 @@
 * {
     /* border: 1px solid red; */
 }
-.vary {
-    display: flex;
+.sec3 {
+    border: 1px solid red;
+    height: 250vh;
 }
 .other {
     background-color: var(--btn-color);
     margin-bottom: 5vh;
     color: #fff;
+}
+.other-p {
+    min-height: 60vh;
+    padding: 3%;
+    font-size: 2rem;
 }
 .vary2 {
     height: 46vh;
@@ -17,14 +23,12 @@
     left: 25vw;
     top: -12vh;
     padding: 20px;
-    /* left: -2vw; */
     background-color: #fff;
-    /* display: inline-block; */
     color: var(--h-color);
 }
 .stretch {
     width: 60vw;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 .vary2 .h, .vary2 p {
     text-align: left;
@@ -37,6 +41,16 @@
 .vary2 .para {
     margin-top: 2vh;
     font-size: 1rem;
+}
+.vary3 > .stretch2 {
+    /* display: ; */
+    position: relative;
+    float: right;
+}
+.vary3 > .vary2 {
+    position: relative;
+    left: 20vw;
+    top: 20vh;
 }
 @media only screen and (min-width: 700px) {
     .other-p {
@@ -54,14 +68,19 @@
     .stretch {
         position: relative;
         left: 10vw;
-        width: 100%;
+        width: 55%;
+    }
+    .vary3 > .stretch {
+        /* width: 200vw; */
+        position: relative;
+        left: 50px;
     }
     .vary2 {
         min-height: 50vh;
         width: 30vw;
         padding: 3%;
         position: relative;
-        left: -2vw;
+        left: -1vw;
         background-color: #fff;
         /* display: inline-block; */
         color: var(--h-color);

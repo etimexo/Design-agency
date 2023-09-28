@@ -10,6 +10,7 @@ export default function Cta() {
         Get in touch. <br />
         The first workout&apos;s on me.
       </p>
+      <button className="lets">Let&apos;s do this</button>
     </div>
   );
 }

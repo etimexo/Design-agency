@@ -8,3 +8,25 @@
     color: #fff;
     font-weight: bold;
 }
+@media only screen and (min-width: 700px) {
+    .back-bg > * {
+        /* border: 1px solid red; */
+    }
+    .back-bg > .h {
+        padding-top: 20vh;
+    }
+    .back-bg > .h2 {
+        font-size: 3.6rem;
+        padding-bottom: 5vh;
+    }
+    .back-bg .lets {
+        width: 170px;
+        background-color: #fff;
+        color: #000;
+        padding-top: 3vh;
+        padding: 15px 30px;
+    }
+    .lets:hover, .lets:focus {
+        background-color: rgba(256, 256, 256, .8);
+    }
+}

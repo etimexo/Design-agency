@@ -9,7 +9,7 @@ export default function Other() {
     <section className="sec3">
       <div className="other">
         <p className="other-p">
-          “I learned so much from Shayna. My excuses were stopping me from
+          “I learned so much from Gyme. My excuses were stopping me from
           sticking to a healthy eating plan and workout schedule. I&apos;ve been
           consistent with my new regimen ever since.”
         </p>
@@ -28,7 +28,8 @@ export default function Other() {
         </div>
       </div>
       <div className="vary vary3">
-        <Image src={Sun} className="stretch" alt="woman stretching" />
+        <Image src={Sun} className="stretch stretch2" alt="woman stretching" />
+        {/* <div className="vary2"> */}
         <div className="vary2">
           <p className="h">A Constant Source of Motivation</p>
           <p className="para">
