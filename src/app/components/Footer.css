@@ -1,0 +1,24 @@
+footer {
+    padding: 1vh 5vw;
+}
+.under {
+    color: var(--h-color);
+    /* display: inline; */
+}
+footer > * {
+    text-align: left;
+}
+.name {
+    font-size: 2rem;
+    margin-bottom: 3vh;
+    color: var(--h-color);
+}
+.body {
+    font-size: 1.1rem;
+}
+@media only screen and (min-width: 700px) {
+    footer > * {
+        text-align: left;
+    }
+    
+}
