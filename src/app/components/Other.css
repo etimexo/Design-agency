@@ -25,7 +25,7 @@
 }
 .stretch {
     width: 60vw;
-    /* padding-left: 10px; */
+    padding-left: 15px;
 }
 .vary2 .h, .vary2 p {
     text-align: left;
@@ -71,9 +71,8 @@
     }
     .vary {
         display: flex;
-        margin: auto;
+        margin: 8vh auto;
         align-items: center;
-        margin-top: 8vh;
     }
     .vary > .stretch {
         position: relative;

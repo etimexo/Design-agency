@@ -1,41 +1,66 @@
 .newsletter {
-    /* padding: 0 auto 5vh; */
-    margin-bottom: 5vh;
-    background-color: var(--btn-color);
-    color: #fff;
-    min-height: fit-content;
-
+  padding: 7vh 50px 8vh;
+  margin: -7vh 0 5vh;
+  background-color: var(--btn-color);
+  color: #fff;
+  min-height: fit-content;
 }
+.newsletter .p1 {
+  padding: 3vh 0 3vh;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+.newsletter .p2 {
+    font-size: 1.1rem;
+    padding-bottom: 5vh;
+}
+.newsletter input {
+    line-height: 11vh;
+    text-align: left;
+    margin-right: 15px;
+    padding-left: 20px;
+  }
+  .newsletter .lets {
+    font-weight: 500;
+    height: 11vh;
+    background-color: #fff;
+    color: black;
+    width: 32vw;
+    margin-top: 3.5vh;
+    display: inline-block;
+    
+  }
+  .newsletter .p3 {
+    margin-top: 4vh;
+  }
 @media only screen and (min-width: 700px) {
-    .newsletter {
-        padding: 0 270px 5vh;
-        height: 50vh;
-    }
-    .newsletter * {
-        /* border: 1px solid red; */
-    }
-    .newsletter .p1 {
-        padding: 7vh 0 3vh;
-        font-size: 2.3rem;
-        font-weight: 500;
-    }
-    .newsletter .p2 {
-        padding-bottom: 4vh;
-    }
-    .newsletter input {
-        line-height: 11vh;
-        text-align: left;
-        margin-right: 15px;
-        padding-left: 20px;
-    }
-    .newsletter .lets {
-        /* background-color: #fff; */
-        /* color: var(--h-color); */
-        font-weight: 600;
-        height: 11vh;
-    }
-    .p3 {
-        color: #e2d8d8;
-        margin-top: 5vh;
-    }
+  .newsletter {
+    padding: 0 270px 5vh;
+    height: 50vh;
+  }
+  .newsletter * {
+    /* border: 1px solid red; */
+  }
+  .newsletter .p1 {
+    padding: 7vh 0 3vh;
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
+  .newsletter .p2 {
+    padding-bottom: 4vh;
+  }
+  .newsletter input {
+    line-height: 11vh;
+    text-align: left;
+    margin-right: 15px;
+    padding-left: 20px;
+  }
+  .newsletter .lets {
+    font-weight: 600;
+    height: 11vh;
+  }
+  .p3 {
+    color: #e2d8d8;
+    margin-top: 5vh;
+  }
 }

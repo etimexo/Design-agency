@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Other from "./components/Other";
 import Cta from "./components/Cta";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 export default function page() {
   return (
@@ -13,7 +14,7 @@ export default function page() {
       <Other />
       <Cta />
       <Newsletter />
-
+      <Footer  />
     </body>
   )
 }
