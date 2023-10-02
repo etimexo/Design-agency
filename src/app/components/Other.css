@@ -2,8 +2,7 @@
     /* border: 1px solid red; */
 }
 .sec3 {
-    border: 1px solid red;
-    height: 270vh;
+    /* height: 270vh; */
 }
 .other {
     background-color: var(--btn-color);
@@ -11,17 +10,15 @@
     color: #fff;
 }
 .other-p {
-    min-height: 60vh;
+    min-height: fit-content;
     padding: 3%;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .vary2 {
     height: 46vh;
     width: 70vw;
     padding: 3%;
     position: relative;
-    left: 25vw;
-    top: -12vh;
     padding: 20px;
     background-color: #fff;
     color: var(--h-color);
@@ -42,28 +39,30 @@
     margin-top: 2vh;
     font-size: 1rem;
 }
+.vary > .vary2 {
+    left: 90px;
+    top: -100px;
+}
+.vary3 {
+    /* display: flex; */
+    text-align: right;
+}
 .vary3 > .stretch2 {
     /* display: ; */
     position: relative;
+    left: 120px;
     /* float: right; */
 }
+
 .vary3 > .vary2 {
     position: relative;
-    left: 20vw;
-    /* top: 38vh; */
+    left: 6vw;
+    top: -20px;
 }
 @media only screen and (min-width: 700px) {
-    .vary3 {
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: 12vh;
-        /* flex-wrap: nowrap; */
-        /* border: 1px solid red; */
-    }
-    .vary3 .stretch {
-        position: relative;
-        left: -10vw;
-    }
+    
+    
+
     .other-p {
         min-height: fit-content;
         font-weight: 700;
@@ -76,32 +75,42 @@
         align-items: center;
         margin-top: 8vh;
     }
-    .stretch {
+    .vary > .stretch {
         position: relative;
         left: 10vw;
         width: 55%;
-    }
-    .vary3 > .stretch {
-        /* width: 200vw; */
-        position: relative;
-        left: 50px;
-    }
-    .vary3 > .vary2 {
-        top: 0;
     }
     .vary2 {
         min-height: 50vh;
         width: 30vw;
         padding: 3%;
         position: relative;
-        left: -1vw;
         background-color: #fff;
-        /* display: inline-block; */
         color: var(--h-color);
     }
-
+    .vary > .vary2 {
+        top: 0px;
+        left: -1vw;
+    }
     
-    
+    .vary3 {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        flex-direction: row-reverse;
+        margin: 60px 10vw;
+        padding: 0;
+    }
+    .vary3 > .stretch2 {
+        width: 50vw;
+        position: relative;
+        left: 10px;
+    }
+    .vary3 .vary2 {
+        position: relative;
+        top: -120px;
+        /* left: 10vw; */
+    }
 }
 
 

@@ -27,7 +27,7 @@ export default function Other() {
           </p>
         </div>
       </div>
-      <div className="vary vary3">
+      <div className="vary3">
         <Image src={Sun} className="stretch stretch2" alt="woman stretching" />
         {/* <div className="vary2"> */}
         <div className="vary2">
