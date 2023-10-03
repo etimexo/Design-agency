@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/Footer.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -39,6 +40,7 @@ export default function Footer() {
           <u>Newsletter</u>
         </a>
       </div>
+      <Link href="../pages">hey</Link>
     </footer>
   );
 }
