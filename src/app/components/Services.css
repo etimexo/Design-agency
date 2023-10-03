@@ -8,6 +8,9 @@
   padding: 6vh 0;
   margin-bottom: 4vh;
 }
+.sec2 .body {
+  color: #fff;
+}
 .sec2 .grid {
   display: grid;
   grid-template-columns: auto;

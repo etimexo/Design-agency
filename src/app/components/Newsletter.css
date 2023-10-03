@@ -37,9 +37,9 @@
 @media only screen and (min-width: 700px) {
   .newsletter {
     padding: 0 270px 5vh;
-    height: 50vh;
+    min-height: 50vh;
   }
-  .newsletter * {
+  .newsletter > * {
     /* border: 1px solid red; */
   }
   .newsletter .p1 {
@@ -51,6 +51,7 @@
     padding-bottom: 4vh;
   }
   .newsletter input {
+    width: 30vw;
     line-height: 11vh;
     text-align: left;
     margin-right: 15px;
@@ -58,6 +59,7 @@
     display: inline;
   }
   .newsletter .lets {
+    width: 10vw;
     font-weight: 600;
     height: 11vh;
   }
