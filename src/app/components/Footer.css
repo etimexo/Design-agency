@@ -51,6 +51,8 @@ footer a {
     }
     footer a {
         font-size: 1.3rem;
+        color: var(--h-color);
+        text-align: left;
     }
     
 }
