@@ -40,7 +40,6 @@ export default function Footer() {
           <u>Newsletter</u>
         </a>
       </div>
-      <Link href="../pages">hey</Link>
     </footer>
   );
 }
