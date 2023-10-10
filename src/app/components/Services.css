@@ -13,7 +13,7 @@
 }
 .sec2 .grid {
   display: grid;
-  grid-template-columns: auto;
+  /* grid-template-columns: auto; */
 }
 .sec2 .head {
   font-size: 2.2rem;
