@@ -10,12 +10,12 @@ export default function page() {
       <Header />
       <h1>GET BACK ON TRACK</h1>
       <Image src={S1} alt="a female trainee" className="s1" />
-      <h1>
+      <p>
         By applying my methods and setting your goals, you&apos;ll realize how
         manageable and natural each step becomes.
-      </h1>
-      <a className="desktop" href="#">
-        <button className="sign-btn">SCHEDULE YOUR FIRST SESSION</button>
+      </p>
+      <a href="#">
+        <button className="sign-btn2">SCHEDULE YOUR FIRST SESSION</button>
       </a>
     </section>
   );
