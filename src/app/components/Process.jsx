@@ -1,5 +1,12 @@
 import React from "react";
+import Image from "next/image";
 import "../components/Process.css";
+import Toes from "../toes.jpg";
+import Undress from "../undress.jpg";
+import Seats from "../seats.jpg";
+import Back2 from "../back2.jpg";
+import Look from "../look.jpg";
+
 
 export default function Process() {
   return (
@@ -12,6 +19,13 @@ export default function Process() {
         exercitationem facilis. */}
         Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
+      <div className="images">
+        <div className="im1">
+            <Image src={Toes} className="size1" alt="athlete touching her toes"/>
+            <Image src={Undress} className="size2" alt="an athlete takiing off a shirt" />
+        </div>
+        
+      </div>
     </section>
   );
 }
