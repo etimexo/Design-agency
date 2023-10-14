@@ -1,0 +1,14 @@
+.process {
+    background-color: rgb(45,77,68);
+    padding: 5vh 2vw;
+    margin-top: 5vh;
+    height: fit-content;
+}
+.process p {
+    color: #fff;
+}
+.process .p2 {
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: 0 25%;
+}

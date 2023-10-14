@@ -3,6 +3,7 @@ import Image from "next/image";
 import Header from "../components/Header";
 import "../signup.css";
 import S1 from "../s1.jpg";
+import Process from "../components/Process";
 
 export default function page() {
   return (
@@ -17,6 +18,7 @@ export default function page() {
       <a href="#">
         <button className="sign-btn2">SCHEDULE YOUR FIRST SESSION</button>
       </a>
+      <Process />
     </section>
   );
 }

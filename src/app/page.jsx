@@ -5,6 +5,7 @@ import Other from "./components/Other";
 import Cta from "./components/Cta";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
+import Process from "./components/Process";
 
 export default function page() {
   return (
@@ -15,6 +16,7 @@ export default function page() {
       <Cta />
       <Newsletter />
       <Footer  />
+      
     </body>
   )
 }
