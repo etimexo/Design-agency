@@ -12,3 +12,12 @@
     font-weight: lighter;
     padding: 0 25%;
 }
+@media only screen and (min-width: 700px) {
+    .size1 {
+        width: 25vw;
+    }
+    .size2 {
+        width: 25vw;
+        height: 30vh;
+    }
+}
