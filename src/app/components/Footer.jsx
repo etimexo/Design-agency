@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import "../components/Footer.css";
 import Link from "next/link";
+import Signed from "./signed";
 
 export default function Footer() {
   return (
@@ -39,6 +41,7 @@ export default function Footer() {
         <a href="#" className="l">
           <u>Newsletter</u>
         </a>
+        <Link href="../signup">hey</Link>
       </div>
     </footer>
   );
