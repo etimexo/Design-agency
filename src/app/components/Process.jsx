@@ -16,7 +16,7 @@ export default function Process() {
         {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />Et pariatur
         unde tempore sed corporis! Impedit necessitatibus molestias consequatur, <br />
         labore tempores magni nemo illum veritatis quos
-        exercitationem facilis. */}
+        exercitationem facilisews. */}
         Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
       <div className="images">
