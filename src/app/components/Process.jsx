@@ -20,7 +20,11 @@ export default function Process() {
         Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
       <div className="images">
-        <div className="im1">
+        <div className="block1">
+            <Image src={Toes} className="size1" alt="athlete touching her toes"/>
+            {/* <Image src={Undress} className="size2" alt="an athlete takiing off a shirt" /> */}
+        </div>
+        <div className="block2">
             <Image src={Toes} className="size1" alt="athlete touching her toes"/>
             <Image src={Undress} className="size2" alt="an athlete takiing off a shirt" />
         </div>

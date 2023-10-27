@@ -8,9 +8,9 @@
     color: #fff;
 }
 .process .p2 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: lighter;
-    padding: 0 25%;
+    padding: 0 15% 5%;
 }
 @media only screen and (min-width: 700px) {
     .size1 {
