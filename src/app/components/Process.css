@@ -3,6 +3,8 @@
     padding: 5vh 2vw;
     margin-top: 5vh;
     height: fit-content;
+    padding-bottom: 4vh;
+    color: #fff;
 }
 .process p {
     color: #fff;
@@ -12,32 +14,86 @@
     font-weight: lighter;
     padding: 0 15% 5%;
 }
+.images-d {
+    display: none;
+}
+.block1, .block2 {
+    display: flex;
+    width: 100%;
+    padding: 0 7px;
+}
+.images-m .toes {
+    width: 50%;
+    height: 110px;
+    margin-right: 5px;
+}
+.images-m .seats {
+    width: 50%;
+}
+.images-m .drink {
+    width: 47%;
+    position: relative;
+    margin-top: -21.7vh;
+    margin-left: 7px;
+}
+.images-m .undress {
+    /* text-align: right; */
+    width: 47%;
+    position: relative;
+    right: 50px;
+    /* margin-top: -21.7vh; */
+    /* margin-left: 7px; */
+}
 @media only screen and (min-width: 700px) {
-    .images {
-        padding: 0 2vw;
+    .images-m {
+        display: none;
     }
-    .toes, .seats, .undress {
-        width: 25vw;
+    .images > * {
+        /* border: 1px solid red; */
+    }
+    .images-d {
+        padding: 0 1vw;
+    }
+    .toes, .seats, .undress, .look, .drink, .back2 {
+        width: 30vw;
+    }
+    .toes, .undress {
+        /* height: 40vh; */
     }
     .toes {
         height: 40vh;
-        padding-right: 3vw;
+        padding-right: 4vw;
+        padding-bottom: 4vh;
+    }
+    .drink {
+        height: 70vh;
+        padding-left: 4vw;
+        padding-bottom: 4vh;
     }
     .seats {
         height: 70vh;
+        padding-bottom: 4vh;
     }
     
-    .toes {
-        /* height: 40vh;  */
-        /* padding-left: 5vw; */
+    .back2 {
+        height: 40vh;
+        padding-left: 4vw;
+        padding-top: 5vh;
     }
-    .block1 {
-        padding-bottom: 5vh;
+    .block1, .block2 {
+        /* padding-bottom: 5vh; */
         display: flex;
     }
     .undress {
         position: relative;
         top: -27vh;
-        padding-right: 3vw;
+        padding-right: 4vw;
+        height: 70vh;
+    }
+    .look {
+        padding-top: 4vh;
+    }
+    .nvr {
+        font-weight: light;
     }
 }
