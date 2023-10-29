@@ -41,7 +41,6 @@ export default function Footer() {
         <a href="#" className="l">
           <u>Newsletter</u>
         </a>
-        <Link href="../signup">hey</Link>
       </div>
     </footer>
   );

@@ -13,11 +13,31 @@
     padding: 0 15% 5%;
 }
 @media only screen and (min-width: 700px) {
-    .size1 {
+    .images {
+        padding: 0 2vw;
+    }
+    .toes, .seats, .undress {
         width: 25vw;
     }
-    .size2 {
-        width: 25vw;
-        height: 30vh;
+    .toes {
+        height: 40vh;
+        padding-right: 3vw;
+    }
+    .seats {
+        height: 70vh;
+    }
+    
+    .toes {
+        /* height: 40vh;  */
+        /* padding-left: 5vw; */
+    }
+    .block1 {
+        padding-bottom: 5vh;
+        display: flex;
+    }
+    .undress {
+        position: relative;
+        top: -27vh;
+        padding-right: 3vw;
     }
 }

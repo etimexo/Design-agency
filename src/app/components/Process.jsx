@@ -21,12 +21,13 @@ export default function Process() {
       </p>
       <div className="images">
         <div className="block1">
-            <Image src={Toes} className="size1" alt="athlete touching her toes"/>
-            {/* <Image src={Undress} className="size2" alt="an athlete takiing off a shirt" /> */}
+            <Image src={Toes} className="toes" alt="athlete touching her toes"/>
+            <Image src={Seats} className="seats" alt="an athlete takiing off a shirt" />
         </div>
         <div className="block2">
-            <Image src={Toes} className="size1" alt="athlete touching her toes"/>
-            <Image src={Undress} className="size2" alt="an athlete takiing off a shirt" />
+            {/* <Image src={Toes} className="size1" alt="athlete touching her toes"/> */}
+            <Image src={Undress} className="undress" alt="an athlete takiing off a shirt" />
+            <Image src={Look} className="look" alt="an athlete takiing off a shirt" />
         </div>
         
       </div>

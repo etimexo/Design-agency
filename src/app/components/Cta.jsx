@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import "../components/Cta.css";
 import Backward from "../backward.jpg";
 
@@ -10,7 +11,8 @@ export default function Cta() {
         Get in touch. <br />
         The first workout&apos;s on me.
       </p>
-      <button className="lets">Let&apos;s do this</button>
+      <Link href="../signup"><button className="lets">Let&apos;s do this</button></Link>
+      {/* hey */}
     </div>
   );
 }

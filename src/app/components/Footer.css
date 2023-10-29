@@ -54,5 +54,7 @@ footer a {
         color: var(--h-color);
         text-align: left;
     }
-    
+    footer .touch {
+        text-align: left;
+    }
 }
