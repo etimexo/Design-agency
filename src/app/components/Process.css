@@ -38,15 +38,35 @@
 }
 .images-m .undress {
     /* text-align: right; */
+    width: 48%;
+    position: relative;
+    left: 50%;
+    margin-top: -16vh;
+    /* margin-left: -3px; */
+}
+.images-m .look {
+    /* text-align: right; */
     width: 47%;
     position: relative;
-    right: 50px;
-    /* margin-top: -21.7vh; */
-    /* margin-left: 7px; */
+    /* left: 50%; */
+    margin-top: -22vh;
+    margin-left: 7px;
+    height: 39vh;
+}
+.images-m .back2 {
+    width: 48%;
+    height: 110px;
+    position: relative;
+    left: 50%;
+    top: -16.5vh;
+    /* margin-right: 5px; */
 }
 @media only screen and (min-width: 700px) {
     .images-m {
         display: none;
+    }
+    .images-d {
+        display: block;
     }
     .images > * {
         /* border: 1px solid red; */

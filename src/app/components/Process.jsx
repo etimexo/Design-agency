@@ -43,9 +43,6 @@ export default function Process() {
               className="undress"
               alt="an athlete taking off his shirt"
             />
-          <div className="block2">
-            {/* <Image src={Toes} className="size1" alt="athlete touching her toes"/> */}
-            
             <Image
               src={Look}
               className="look"
@@ -56,6 +53,11 @@ export default function Process() {
               className="back2"
               alt="a female athelete and her coach running backwards"
             />
+          <div className="block2">
+            {/* <Image src={Toes} className="size1" alt="athlete touching her toes"/> */}
+            
+            
+            
           </div>
         </div>
         <div className="images-d">
