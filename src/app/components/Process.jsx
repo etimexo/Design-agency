@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Footer from "./Footer";
-import "../components/Process.css";
+import "./Process.css";
 import Toes from "../toes.jpg";
 import Undress from "../undress.jpg";
 import Seats from "../seats.jpg";

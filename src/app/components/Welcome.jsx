@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import "../components/Welcome.css";
+import "./Welcome.css";
 import MainImg from "../main.jpg";
 import Header from "./Header";
 

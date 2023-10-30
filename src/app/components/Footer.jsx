@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "../components/Footer.css";
+import "./Footer.css";
 import Link from "next/link";
 import Signed from "./signed";
 

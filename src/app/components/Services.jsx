@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import "../components/Services.css";
+import "./Services.css";
 
 export default function Services() {
   return (

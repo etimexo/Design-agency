@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Other.css";
+import "./Other.css";
 import Image from "next/image";
 import Stretch from "../stretch.jpg";
 import Sun from "../sunblock.jpg";

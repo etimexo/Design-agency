@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import "../components/Cta.css";
+import "./Cta.css";
 import Backward from "../backward.jpg";
 
 export default function Cta() {
