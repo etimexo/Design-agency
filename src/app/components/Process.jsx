@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Footer from "./Footer";
+import Booking from "./Booking";
+// import Booking1 from "./Booking1";
 import "./Process.css";
 import Toes from "../toes.jpg";
 import Undress from "../undress.jpg";
@@ -99,6 +101,7 @@ export default function Process() {
         </p>
         - Gymian G.
       </section>
+      <Booking />
       <Footer />
     </>
   );
