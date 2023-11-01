@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../components/Booking1.css";
 export default function Booking1() {
   return (
     <div className="booking1">
