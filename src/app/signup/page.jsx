@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Booking1 from "../components/Booking1";
+// import Booking1 from "../components/Booking1";
+import Booking from "../components/Booking";
 import Header from "../components/Header";
 import "../signup.css";
 import S1 from "../s1.jpg";
@@ -20,7 +21,7 @@ export default function page() {
         <button className="sign-btn2">SCHEDULE YOUR FIRST SESSION</button>
       </a>
       <Process />
-      {/* <Booking1 /> */}
+      <Booking />
     </section>
   );
 }

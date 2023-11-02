@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Other from "./components/Other";
 import Cta from "./components/Cta";
 import Newsletter from "./components/Newsletter";
+import Booking from "./components/Booking";
 import Footer from "./components/Footer";
 import Process from "./components/Process";
 
@@ -15,6 +16,7 @@ export default function page() {
       <Other />
       <Cta />
       <Newsletter />
+      <Booking />
       <Footer  />
       
     </body>

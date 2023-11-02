@@ -101,8 +101,7 @@ export default function Process() {
         </p>
         - Gymian G.
       </section>
-      <Booking />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
