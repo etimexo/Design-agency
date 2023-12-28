@@ -4,6 +4,45 @@
     /* display: flex; */
     padding: 0;
     margin: 0;
-    /* justify-content: space-between; */
-    
+    /* justify-content: space-between; */    
+}
+.booking1 .sign-h {
+    font-weight: 600;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.booking1 .p {
+    color: black;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.booking .row .col2 {
+    min-height: 70vh;
+    width: 84%;
+    margin: 10px auto;
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 700px) {
+    .booking .row {
+        display: flex;
+    }
+    .booking .row .col1 .sign-h {
+        font-size: 700;
+        font-size: 3rem;
+    }
+    .booking .row .col1 .p {
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    .booking .row .col1 {
+        /* border: 1px solid red; */
+        width: 60%;
+    }
+    .booking .row .col2 {
+        /* width: 70%; */
+        margin-top: 20px;
+        margin-right: 20px;
+    }
 }

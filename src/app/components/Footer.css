@@ -7,8 +7,15 @@ footer {
 footer p {
     text-align: left;
 }
-footer a {
+footer .touch {
+    /* background-color: yellow; */
     text-align: left;
+}
+footer .touch a {
+    /* margin-left: -200px; */
+    /* font-size: 3rem; */
+    /* border: 1px solid red; */
+    color: var(--h-color);
 }
 .name {
     font-size: 2rem;
