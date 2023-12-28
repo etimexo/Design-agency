@@ -16,6 +16,7 @@
     color: black;
     font-size: 15px;
     padding-left: 30px;
+    text-align: left;
 }
 .booking .row .col2 {
     min-height: 70vh;
@@ -30,19 +31,41 @@
     }
     .booking .row .col1 .sign-h {
         font-size: 700;
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
     .booking .row .col1 .p {
         font-weight: lighter;
-        font-size: 20px;
+        font-size: 17px;
     }
     .booking .row .col1 {
         /* border: 1px solid red; */
-        width: 60%;
+        /* width: 80%; */
     }
     .booking .row .col2 {
         /* width: 70%; */
+        min-height: 100vh;
         margin-top: 20px;
         margin-right: 20px;
+        
+    }
+    .booking .row .col2 * {
+        /* border: 1px solid red; */
+    }
+    /* .booking .row .col2 ul */
+    .booking .row .col2 ul {
+        list-style-type: none;
+        text-align: right;
+        margin-top: 20px;
+    }
+    .booking .row .col2 ul li {
+        display: inline;
+    }
+    .booking .row .col2 ul li {
+        margin: 10px;
+    }
+    .booking .row .col2 .h {
+        font-weight: 500;
+        font-size: 20px;
+        color: #000;
     }
 }

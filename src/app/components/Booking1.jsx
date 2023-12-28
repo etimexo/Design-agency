@@ -1,15 +1,31 @@
+"use client"
 import React from "react";
+import { useState } from "react";
 import "../components/Booking1.css";
+import Booking2 from "./Booking2";
 export default function Booking1() {
+  const [initial, first] = useState(false)
+  function onClick() {
+    first(true)
+  }
+
   return (
-    <div className="booking1">
-      <h1 className="sign-h">Signup and Schedule Your First Session with Gymian</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-        veritatis corporis quas nemo similique <br />
-        facere iure repellendus doloremque, tempora eos eveniet id facilis,{" "}
-        <br /> cumque commodi sapiente quam pariatur amet molestias?
-      </p>
+    <>
+    {!initial && (
+      <div className="booking1">
+      <p className="h">Select Appointment</p>
+      <div className="box1">
+        <div className="sec1">
+          
+        </div>
+        <div className="sec2">
+
+        </div>
+      </div>
+      <button id="button" onClick={onClick}>Click</button>
     </div>
+    )}
+    {initial && <Booking2 />}
+    </>
   );
 }

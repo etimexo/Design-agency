@@ -24,11 +24,21 @@ export default function Booking() {
             </div>
           </div>
           <div className="col2">
-            
+            <ul>
+              <li>
+                <a href="#" className="sign-up">
+                  SIGN UP
+                </a>
+              </li>
+              <li>
+                <a href="#" className="login">
+                  LOGIN
+                </a>
+              </li>
+            </ul>
+            <Booking1 />
           </div>
         </div>
-
-        {/* <Booking2 /> */}
       </div>
       {/* <Footer /> */}
     </>
