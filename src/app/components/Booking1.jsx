@@ -16,7 +16,15 @@ export default function Booking1() {
       <p className="h">Select Appointment</p>
       <div className="box1">
         <div className="sec1">
-          
+          feww
+        </div>
+        <div className="sec2">
+
+        </div>
+      </div>
+      <div className="box2">
+        <div className="sec1">
+          feww
         </div>
         <div className="sec2">
 
