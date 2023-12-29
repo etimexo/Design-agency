@@ -2,7 +2,6 @@
 import React from "react";
 import "./Footer.css";
 import Link from "next/link";
-import Signed from "./signed";
 
 export default function Footer() {
   return (
