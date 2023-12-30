@@ -11,11 +11,13 @@
         margin: 52px auto 0;
         width: 90%;
         border-radius: 3px;
-        box-shadow: 0px 0px 5px #949494;
+        box-shadow: 0px 0px 3px #949494;
     }
     .box2 {
-        margin-top: 0;
-        box-shadow: 0px 5px 5px #949494;
+        margin-top: 2px;
+        /* border-top: 2px solid #949494; */
+        border-bottom: none;
+        box-shadow: 0px 0px 4px #949494;
     }
 
 }
