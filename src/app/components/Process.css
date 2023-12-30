@@ -63,6 +63,14 @@
     /* margin-right: 5px; */
 }
 @media only screen and (min-width: 700px) {
+    .process {
+        background-color: rgb(45,77,68);
+        padding: 5vh 2vw;
+        /* margin-top: 5vh; */
+        height: fit-content;
+        padding-bottom: 100px;
+        color: #fff;
+    }
     .images-m {
         display: none;
     }
