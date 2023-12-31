@@ -5,6 +5,41 @@
 
 }
 @media only screen and (min-width: 700px) {
+    .box1, .box2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box1 *, .box2 * {
+        /* border: 1px solid purple; */
+    }
+    .booking1 .sec1 .inp {
+        border-bottom: 1px solid #949494;
+        /* padding-left: 15px; */
+        text-align: left;
+        /* margin-left: -2px; */
+    }
+    .box1 .sec1, .box2 .sec1 {
+        text-align: left;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .booking1 .book-hr, .book-min{
+        height: 60px;
+        width: 80px;
+        border-radius: 5px;
+        background-color: rgb(20, 20, 20);
+        margin-right: 20px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .booking1 .ok-hr, .ok-min {
+        background-color: #949494;
+        padding: 5px;
+        color: rgb(51, 51, 50);
+        border-radius: 7px;
+    }
     .booking1 .box1, .box2{
         height: 22vh;
         /* border: 1px solid red; */
@@ -13,6 +48,8 @@
         border-radius: 3px;
         box-shadow: 0px 0px 3px #949494;
     }
+    
+
     .box2 {
         margin-top: 2px;
         /* border-top: 2px solid #949494; */
