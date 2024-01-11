@@ -7,7 +7,7 @@ import "../components/Booking1.css";
 import Booking2 from "./Booking2";
 export default function Booking1() {
   const [initial, first] = useState(false);
-  const [hrInputValue, setHrInputValue] = useState("")
+  // const [hrInputValue, setHrInputValue] = useState("")
   const hrInputRef = useRef(null);
 
   function onClick() {
@@ -43,7 +43,7 @@ export default function Booking1() {
                 className="inp"
                 id="hr-inp"
                 ref={hrInputRef}
-                value={hrInputValue}
+                // value={hrInputValue}
               />{" "}
               <button className="ok-hr" onClick={hrclicked}>
                 OK

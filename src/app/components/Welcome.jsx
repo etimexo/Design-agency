@@ -10,7 +10,7 @@ export default function Welcome() {
       <Header />
       <section className="sec1">
         <h1>
-          Personal Trainer + Nutritionist with over 15 years of experience.
+          Personal Trainer Nutritionist with over 15 years of experience.
         </h1>
         <Image className="main-img" src={MainImg} alt="an instructor" />
         <h3>
