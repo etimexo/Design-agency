@@ -1,17 +1,20 @@
 "use client";
 import React, { useState, useRef } from "react";
 import "../components/Booking1.css";
+// import Booking21 from "./Booking21";
 import Booking21 from "./Booking21";
 export default function Booking1() {
-  const [initial, first] = useState(false);
+  // const [initial, first] = useState(false);
+  const [firstClick, setFirstClick] = "false"
   const [hrInputValue, setHrInputValue] = useState("");
   const [minInputValue, setMinInputValue] = useState("");
   const hrInputRef = useRef(null);
   const minInputRef = useRef(null);
 
-  function onClick() {
-    first(true)
-  }
+
+  // function onClick() {
+    // first(true)
+  // }
 
   let hrText = document.getElementById("hr-inp");
   let phr = document.getElementById("phr");
@@ -26,7 +29,7 @@ export default function Booking1() {
 
   return (
     <>
-      {!initial && (
+      {/* {!initial && ( */}
         <div className="booking1">
           <p className="h">Select Appointment</p>
           <div className="box1">
@@ -71,12 +74,14 @@ export default function Booking1() {
               <button className="book-min">Book</button>
             </div>
           </div>
-          <button id="button" onClick={onClick}>
+          {/* <button id="button" onClick={onClick}>
             Click
-          </button>
+          </button> */}
+          <button onClick={() => setFirstClick(!firstClick)}>click</button>
+          <Booking21 />
         </div>
-      )}
-      {initial && <Booking21 />}
+      {/* )} */}
+      {/* {initial && <Booking21 />} */}
     </>
   );
 }

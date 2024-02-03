@@ -1,8 +1,9 @@
-.booking2 {
-
+.gil p       {
+    color: black;
+    background-color: black;
+    height: 20px;
+    width: 50px;
 }
 @media only screen and (min-width: 700px) {
-    .booking21 {
-        /* width: 55%; */
-    }
+    
 }
