@@ -1,10 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
 import "../components/Booking1.css";
-// import Booking21 from "./Booking21";
-import Booking21 from "./Booking21";
 export default function Booking1() {
-  // const [initial, first] = useState(false);
   const [firstClick, setFirstClick] = "false";
   const [hrInputValue, setHrInputValue] = useState("");
   const [minInputValue, setMinInputValue] = useState("");

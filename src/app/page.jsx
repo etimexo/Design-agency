@@ -6,7 +6,6 @@ import Cta from "./components/Cta";
 import Newsletter from "./components/Newsletter";
 import Booking from "./components/Booking";
 import Footer from "./components/Footer";
-import Booking21 from "./components/Booking21";
 import Booking1 from "./components/Booking1";
 import Process from "./components/Process";
 

@@ -3,7 +3,6 @@
     display: flex;
     padding: 0;
     margin: 0;
-    /* justify-content: space-between; */    
 }
 .booking1 .sign-h {
     font-weight: 600;
@@ -36,21 +35,12 @@
         font-weight: lighter;
         font-size: 17px;
     }
-    .booking .row .col1 {
-        /* border: 1px solid red; */
-        /* width: 80%; */
-    }
     .booking .row .col2 {
-        /* width: 70%; */
         min-height: 100vh;
         margin-top: 20px;
         margin-right: 20px;
         
     }
-    .booking .row .col2 * {
-        /* border: 1px solid red; */
-    }
-    /* .booking .row .col2 ul */
     .booking .row .col2 ul {
         list-style-type: none;
         text-align: right;

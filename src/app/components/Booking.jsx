@@ -1,7 +1,6 @@
 import React from "react";
 import "../components/Booking.css";
 import Booking1 from "./Booking1";
-import Booking2 from "./Booking21";
 import Footer from "./Footer";
 
 export default function Booking() {
