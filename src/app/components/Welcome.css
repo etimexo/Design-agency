@@ -21,7 +21,10 @@
     margin: 10vh auto;
     font-weight: bold;
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 769px) {
+    .sec1, .sec2 {
+        padding: 0 5%;
+    }
     
     .sec1 {
         width: 80%;

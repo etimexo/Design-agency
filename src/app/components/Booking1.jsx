@@ -40,7 +40,7 @@ export default function Booking1() {
 
   return (
     <>
-      <div className="booking1">
+      <div className="booking1" id="book">
         <p className="h">Select Appointment</p>
         <div className="box1">
           <div className="sec1">

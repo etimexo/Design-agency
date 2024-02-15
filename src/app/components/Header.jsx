@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Header.css";
+import Booking1 from './Booking1';
 
 export default function Header() {
   return (
@@ -23,7 +24,8 @@ export default function Header() {
         </div>
 
         <a className="desktop" href="#">
-          <button className="sign-btn">SIGN UP</button>
+          <a href="#book"><button className="sign-btn">Book</button></a>
+          
         </a>
 
         <ul className="navmenu">

@@ -23,7 +23,7 @@ export default function Booking() {
             </div>
           </div>
           <div className="col2">
-            <ul>
+            {/* <ul>
               <li>
                 <a href="#" className="sign-up">
                   SIGN UP
@@ -34,7 +34,7 @@ export default function Booking() {
                   LOGIN
                 </a>
               </li>
-            </ul>
+            </ul> */}
             <Booking1 />
           </div>
         </div>
