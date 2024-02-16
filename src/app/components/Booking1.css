@@ -1,3 +1,6 @@
+.booking1 {
+    animation: fadein 3s ease-in-out;
+}
 .box1, .box2 {
     display: flex;
     justify-content: space-between;
@@ -40,4 +43,12 @@
 }
 @media only screen and (min-width: 700px) {
     
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
